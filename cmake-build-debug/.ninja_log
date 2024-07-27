@@ -1,0 +1,10 @@
+# ninja log v6
+18	566	1722050520652487483	CMakeFiles/RandomNumberGenerator.dir/triple_number.cpp.o	158054dcea9568c8
+16	568	1722050520650487470	CMakeFiles/RandomNumberGenerator.dir/print_array.cpp.o	103fe0e768bc4435
+10	575	1722050520645487440	CMakeFiles/RandomNumberGenerator.dir/h01.cpp.o	146d0ade0446c6ba
+575	839	1722050521209490893	CMakeFiles/RandomNumberGenerator.dir/save_array.cpp.o	a639af9ee621b91c
+567	842	1722050521201490844	CMakeFiles/RandomNumberGenerator.dir/prt_header.cpp.o	29074ffeb1a75b05
+568	859	1722050521202490850	CMakeFiles/RandomNumberGenerator.dir/reverse_digits.cpp.o	d542f33555b7891
+842	1050	1722050521477492533	CMakeFiles/RandomNumberGenerator.dir/sum_digits.cpp.o	ea01be7ff451586b
+839	1089	1722050521473492509	CMakeFiles/RandomNumberGenerator.dir/sort_array.cpp.o	573e0daeb7e1b1
+1089	1138	1722050521723494039	RandomNumberGenerator	994610935474507

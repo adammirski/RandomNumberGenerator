@@ -1,0 +1,43 @@
+# Makefile for RandomNumberGenerator project
+
+# Compiler
+CXX = g++
+CXXFLAGS = -std=c++14
+
+# Project name
+TARGET = RandomNumberGenerator
+
+# Include directories
+INCLUDES = -I.
+
+# Source files
+SOURCES = \
+	h01.cpp \
+	print_array.cpp \
+	triple_number.cpp \
+	prt_header.cpp \
+	reverse_digits.cpp \
+	save_array.cpp \
+	sort_array.cpp \
+	sum_digits.cpp \
+	triple_number.cpp
+
+# Object files
+OBJECTS = $(SOURCES:.cpp=.o)
+
+# Default target
+all: $(TARGET)
+
+# Link the executable
+$(TARGET): $(OBJECTS)
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -o $@ $(OBJECTS)
+
+# Compile source files to object files
+%.o: %.cpp
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -c $< -o $@
+
+# Clean up
+clean:
+	rm -f $(TARGET) $(OBJECTS)
+
+.PHONY: all clean
